@@ -21,6 +21,10 @@ def q2():
     print(soma)
 
 def q3():
+    servidores = int(input("Número de servidores: "))
+    banco = int(input("Unidades de capacidade do banco de dados: "))
+    armazenamento = int(input("Armazenamento de dados (em GB): "))
+    transferencia = int(input("Transferência de dados de entrada e saída (em GB): "))
     
 
 def q4():
