@@ -10,10 +10,18 @@ def q1():
         print("Quantidade de divisores divisiveis por 3:", divisiveis)
 
 def q2():
-    pass
+    soma = 0
+    menor = int(input(""))
+    maior = int(input(""))
+    if menor > maior:
+        menor, maior = maior, menor
+    for i in range(menor, maior + 1):
+        if i > 0:
+            soma += i
+    print(soma)
 
 def q3():
-    pass
+    
 
 def q4():
     pass
