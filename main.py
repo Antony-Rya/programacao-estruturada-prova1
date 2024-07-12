@@ -25,6 +25,10 @@ def q3():
     banco = int(input("Unidades de capacidade do banco de dados: "))
     armazenamento = int(input("Armazenamento de dados (em GB): "))
     transferencia = int(input("Transferência de dados de entrada e saída (em GB): "))
+    Pservidores = servidores * 500
+    Pbanco = banco * 100
+    Parmazenamento = 
+    Ptransf = transferencia * 0.10
     
 
 def q4():
